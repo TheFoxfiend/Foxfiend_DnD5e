@@ -1,0 +1,8 @@
+query SpellList{
+    spells{
+        name
+        level
+        classes{name}
+        components
+    }
+}
